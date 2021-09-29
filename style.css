@@ -1,0 +1,69 @@
+.egesz {
+    max-width:800px;
+    margin:auto;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing:1px;
+
+}
+.nev {
+    color:white;
+    border: 4px solid lightblue;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 250px;
+    text-align: center;
+    vertical-align: text-bottom;
+    background-image:   url(https://images.pexels.com/photos/1229865/pexels-photo-1229865.jpeg) ;
+    background-size: cover;
+    background-position:center;
+    
+}
+
+.nev h1 {  
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-top:100px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing:3px;
+}
+
+main {
+    display: flex;
+    
+
+    border: 4px solid lightblue;
+    padding: 30px;
+    margin-top: 5px;
+    background-color: #212327 ;
+}
+
+
+aside{
+    flex-grow: 1;
+    max-width: 350px;
+}
+
+article {
+    margin-right: 30px;
+    max-width: 350px;
+    flex-grow: 1;
+}
+
+h3 {
+    
+    color:lightblue;
+    text-transform: uppercase;
+}
+
+p, ul {
+    color: white;
+    font-size: 12px;
+}
+
+li {
+    margin: 12px 0px 5px 0px;
+}
+
+.igen {
+    margin-top: 100px;
+}
